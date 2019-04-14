@@ -6,9 +6,9 @@ For the case 1 :
 * Created Language__c (Picklist) and Survey_Date__c (Date/Time) fields on Contact.
 * Created SendEmailBatch Class. 
     This class does the following;
-     * Retrieves Contacts which has Survey_Date__c less than now.
+     * Retrieves Contacts which has Survey_Date__c less than now and email not equal null.
      * Sends email to those contacts in different languages according to Language__c value on Contact.
-     * Updates Survey_Date__c of processed Contacts to null.
+     * Updates Survey_Date__c of processed Contacts and set null value.
 * Created ScheduleSendEmailBatch class to schedule this class once in a day at 23:59. 
 This class will invoke SendEmilBatch class and make it process 200 records at a time.
 * Created Test Class for SchedulerClass (TestScheduleSendEmailBatch).
