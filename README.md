@@ -11,7 +11,7 @@ For the case 1 :
      * Updates Survey_Date__c of processed Contacts and set null value.
 * Created ScheduleSendEmailBatch class to schedule this class once in a day at 23:59. 
 This class will invoke SendEmilBatch class and make it process 200 records at a time.
-* Created Test Class for SchedulerClass (TestScheduleSendEmailBatch).
+* Created Test Class(TestScheduleSendEmailBatch).
 
 
 For the Case 2:
