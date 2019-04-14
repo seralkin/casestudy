@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="ProductsOfContactController">
+	<aura:attribute name="record" type="Object" />
+    <aura:attribute name="contactRecord" type="Contact"/>
+    <force:recordData layoutType="FULL"
+                  recordId="{!v.recordId}"
+                  targetFields="{!v.record}"
+                  recordUpdated="{!c.recordUpdate}" />
+    
+    <c:DisplayProducts contactRecord="{!v.contactRecord}"/>
+    
+</aura:component>

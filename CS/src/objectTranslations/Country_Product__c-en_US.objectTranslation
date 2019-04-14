@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Country Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Country Product</value>
+    </caseValues>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <relationshipLabel><!-- Country Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fee --></label>
+        <name>Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+        <picklistValues>
+            <masterLabel>ATM Fee in other currencies</masterLabel>
+            <translation><!-- ATM Fee in other currencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card Replacement Cost</masterLabel>
+            <translation><!-- Card Replacement Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost per Calendar Month</masterLabel>
+            <translation><!-- Cost per Calendar Month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Country Product --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

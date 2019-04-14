@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="DisplayProductsController" >
+	<aura:attribute name="contactRecord" type="Contact" />
+    <aura:attribute name="products" type="Object" />
+    <aura:handler name="change" value="{!v.contactRecord}" action="{!c.doAction}"/>
+    
+    <lightning:card title="Customer's Products">
+        <p class="slds-p-horizontal_small">
+            
+            <aura:if isTrue="{!empty(v.products)}">
+                There is no data to display.
+            </aura:if>
+               
+            <aura:iteration items="{!v.products}" var="product">
+                <lightning:recordViewForm recordId="{!product.Id}" objectApiName="Country_Product__c">
+                    <div class="slds-box slds-theme_default">
+                        <lightning:outputField fieldName="Product__c" />
+                        <lightning:outputField fieldName="Country__c" />
+                        <lightning:outputField fieldName="Fee__c" />
+                        <lightning:outputField fieldName="Product_Family__c" />
+                    </div>
+                </lightning:recordViewForm>
+                <br/>
+            </aura:iteration>
+        </p>
+    </lightning:card>
+</aura:component>
