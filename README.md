@@ -20,7 +20,7 @@ For the Case 2:
 * Created County_Product__c junction object to keep Product, Country, Fee and Product Family information. 
     See screens
     ![object manager](https://user-images.githubusercontent.com/49560853/56093075-dae08f80-5ecc-11e9-934f-39030cd04324.png)
-      
+    ![CountryProduct](https://user-images.githubusercontent.com/49560853/56093091-fd72a880-5ecc-11e9-93b5-6b84432c8462.png)
 * Created Home_Country__c field on account object.
 * Created ProductsOfContact Lightning Component and its apex controller class (ProductOfContactController).
 * Created DisplayProducts Lightning Component and its apex controller class (DisplayProductsController).
