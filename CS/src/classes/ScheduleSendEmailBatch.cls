@@ -3,7 +3,7 @@ global class ScheduleSendEmailBatch implements Schedulable{
     // Define date and time for job to run
     public static final String CRON_JOB = '0 59 23 * * ? *';
    
-    // Schedule job manually on predifened date and time
+    // Schedule job manually on predifened date and time (23:59)
     global static String scheduleManually() {
         ScheduleSendEmailBatch scheduler = new ScheduleSendEmailBatch(); 
         return System.schedule('Send Email Batch', CRON_JOB, scheduler);
