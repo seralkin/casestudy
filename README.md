@@ -31,4 +31,4 @@ For the Case 2:
 * Added ProductsOfContact to the Case Page Layout
 
 Screenshot for the ProductsOfContact component that works on Case Page layout can be found below.
-https://ibb.co/p4FdBbP
+![case](https://user-images.githubusercontent.com/49560853/56093059-b2f12c00-5ecc-11e9-9265-172d1f66314e.png)
