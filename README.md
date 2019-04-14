@@ -17,7 +17,7 @@ This class will invoke SendEmilBatch class and make it process 200 records at a 
 For the Case 2:
 * Created Country__c custom object to keep country records (DE, FR, ES, IT, UK).
 * Used standard Product2 object to keep product records (Standard, Black and Metal).
-* Created County_Product__c junction object to keep Product, Country, Fee and Product Family information. 
+* Created Country_Product__c junction object to keep Product, Country, Fee and Product Family information. 
     See screens
     ![object manager](https://user-images.githubusercontent.com/49560853/56093075-dae08f80-5ecc-11e9-934f-39030cd04324.png)
     ![CountryProduct](https://user-images.githubusercontent.com/49560853/56093091-fd72a880-5ecc-11e9-93b5-6b84432c8462.png)
