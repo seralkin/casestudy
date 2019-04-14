@@ -25,10 +25,10 @@ For the Case 2:
 * Created ProductsOfContact Lightning Component and its apex controller class (ProductOfContactController).
 * Created DisplayProducts Lightning Component and its apex controller class (DisplayProductsController).
      Those two components do the following;
-     * ProductsOfContact retrieve Contact information from Case and pass it to the DisplayProducts component.
-     * DisplayProduct component retrieves matching product information according to Home_Country__c and Product values on contact.
+     * ProductsOfContact component retrieves Contact information from Case and pass it to the DisplayProducts component.
+     * DisplayProduct component retrieves matching product information according to Home_Country__c and Product values on Contact.
 * Created test class for their apex controller classes and created some sample data in them (TestProductOfContactController and TestDisplayProductsController)
-* Added ProductsOfContact to the Case Page Layout
+* Added ProductsOfContact to the Case Page Layout.
 
 Screenshot for the ProductsOfContact component that works on Case Page layout can be found below.
 ![case](https://user-images.githubusercontent.com/49560853/56093059-b2f12c00-5ecc-11e9-9265-172d1f66314e.png)
