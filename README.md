@@ -18,9 +18,9 @@ For the Case 2:
 * Created Country__c custom object to keep country records (DE, FR, ES, IT, UK).
 * Used standard Product2 object to keep product records (Standard, Black and Metal).
 * Created County_Product__c junction object to keep Product, Country, Fee and Product Family information. 
-    See URL for sample screen 
-      https://ibb.co/RzGnyVh
-      https://ibb.co/NtG3tfZ
+    See screens
+    ![object manager](https://user-images.githubusercontent.com/49560853/56093075-dae08f80-5ecc-11e9-934f-39030cd04324.png)
+      
 * Created Home_Country__c field on account object.
 * Created ProductsOfContact Lightning Component and its apex controller class (ProductOfContactController).
 * Created DisplayProducts Lightning Component and its apex controller class (DisplayProductsController).
