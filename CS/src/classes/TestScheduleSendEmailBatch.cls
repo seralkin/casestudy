@@ -5,7 +5,7 @@ public class TestScheduleSendEmailBatch {
             String CRON_JOB = '0 59 23 * * ? *';
             createContacts();
             //String jobId = System.schedule('Send Email', CRON_JOB, new ScheduleSendEmailBatch());
-            //Schedule manually
+            //Schedule manually 
             String jobId = ScheduleSendEmailBatch.scheduleManually();
             CronTrigger ct = [SELECT Id, CronExpression, TimesTriggered, NextFireTime FROM CronTrigger WHERE id = :jobId];
             System.assertEquals(CRON_JOB, ct.CronExpression);
