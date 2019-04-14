@@ -4,15 +4,15 @@ Case Study for interview process.
 
 For the case 1 :
 
-1- Created Language__c (Picklist) and Survey_Date__c (Date/Time) fields on Contact.
-2- Created SendEmailBatch Class. 
+* Created Language__c (Picklist) and Survey_Date__c (Date/Time) fields on Contact.
+* Created SendEmailBatch Class. 
     This class does the following;
      a. Retrieves Contacts which has Survey_Date__c less than now.
      b. Sends email to those contacts in different languages according to Language__c value on Contact.
      c. Updates Survey_Date__c of processed Contacts to null.
-3- Create ScheduleSendEmailBatch class to schedule this class once in a day at 23:59. 
+* Created ScheduleSendEmailBatch class to schedule this class once in a day at 23:59. 
 This class will invoke SendEmilBatch class and make it process 200 records at a time.
-4- Created Test Class for SchedulerClass (TestScheduleSendEmailBatch).
+* Created Test Class for SchedulerClass (TestScheduleSendEmailBatch).
 
 
 For the Case 2:
